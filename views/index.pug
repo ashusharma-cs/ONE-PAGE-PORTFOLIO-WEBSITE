@@ -1,0 +1,156 @@
+doctype html
+html
+    head
+        title PORTFOLIO
+        style
+            include ../static/css/style.css
+            include ../static/css/responsive.css
+
+        script(src="https://kit.fontawesome.com/355cb41834.js" crossorigin="anonymous")
+        link(rel="shortcut icon", href="../static/images/a.png", type="image/x-icon")
+        
+
+    body        
+        nav#navbar
+            .left
+                h1 SHARMA #[span.red A]SHU
+            .right
+                ul  
+                    li #[a(href="#navbar") HOME]
+                    li #[a(href="#second") SERVICES]
+                    li #[a(href="#third") PROJECTS ]
+                    li #[a(href="#about") ABOUT ME ]
+                    li #[a(href="#contact") CONTACT ]
+
+        section#first
+            .text
+                .text-holder
+                    h1 Hello! #[span]
+                    h1 My Name Is #[span]
+                    h1 Ashu. #[span]
+                    //- i.fa.fa-file-text
+                    button.btn PORTFOLIO
+        section#second
+            .s1 
+                h1 SERV#[span.red I]CES
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi aliquam voluptatum nemo nulla, ipsam ipsum asperiores quam nisi id ullam dolore perferendis impedit recusandae enim illum, eaque dolor repudiandae minima sunt architecto nesciunt maxime quae minus at! Est quo expedita corrupti repellat beatae et eius doloribus perspiciatis deleniti tenetur quam quis quod, quidem eligendi amet error animi quae ipsum necessitatibus autem distinctio saepe 
+            .s2
+                .sbox
+                    img(src="../static/images/programmer.png", alt="")
+                    h1.hcolor WEB DESIGN
+                    p.pcolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod
+                .sbox
+                    img(src="../static/images/programmer.png", alt="")
+                    h1.hcolor WEB DESIGN
+                    p.pcolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod
+                .sbox
+                    img(src="../static/images/programmer.png", alt="")
+                    h1.hcolor WEB DESIGN 
+                    p.pcolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod
+                .sbox
+                    img(src="../static/images/programmer.png", alt="")
+                    h1.hcolor WEB DESIGN
+                    p.pcolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod
+        
+        section#third
+
+            h1#head RECENT #[span.red PROJECTS]
+            .tbox
+                .t1
+                    h1 Project 1
+                    h2 Coding is Love
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!
+                .t2
+                    img(src="../static/images/img-1.png", alt="")
+            .tbox-spcl
+                .ml
+                    img(src="../static/images/img-1.png", alt="")
+                .mr
+                    h1 Project 2
+                    h2 Coding is Love
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!
+            .tbox
+                .t1
+                    h1 Project 3
+                    h2 Coding is Love
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!
+                .t2
+                    img(src="../static/images/img-1.png", alt="")
+
+            .tbox-spcl
+                .ml
+                    img(src="../static/images/img-1.png", alt="")
+                .mr
+                    h1 Project 4
+                    h2 Coding is Love
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et! 
+
+            .tbox
+                .t1
+                    h1 Project 5
+                    h2 Coding is Love
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!
+                .t2
+                    img(src="../static/images/img-1.png", alt="")
+
+        section#about
+            .aboutbox
+                .image  
+                    .ibox
+                        img(src="../static/images/me.jpg", alt="")
+                
+                   
+                .info
+                    h1#ah1 ABOUT #[span.red ME]
+                    h2#ah2 Full Stack Developer
+                    p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni! Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt reprehenderit libero enim!
+                    button.btn1 DOWNLOAD RESUME
+        
+        section#contact
+            h1 CONTACT #[span.red INFO]
+            .card
+                .c 
+                    .cibox
+                         <img src="https://img.icons8.com/bubbles/100/000000/phone.png">
+                    .cinfo
+                        h2 Phone
+                        p +91 9718794893
+                .c 
+                    .cibox
+                        <img src="https://img.icons8.com/bubbles/100/000000/new-post.png">
+                    .cinfo
+                        h2 Email
+                        p #[a(href="/") ashu.lucifer@gmail.com]
+                .c 
+                    .cibox
+                         <img src="https://img.icons8.com/bubbles/100/000000/map-marker.png">
+                    .cinfo
+                        h2 Address
+                        p India
+
+        footer#foot
+
+            .foot
+                h1 SHARMA #[span.red A]SHU            
+                h2 Your Complete Web Solution
+                .footim
+                    a(href="/") 
+                        <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png">
+                    a(href="/")
+                        <img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png">
+                    a(href="/")
+                        <img src="https://img.icons8.com/bubbles/100/000000/twitter.png">
+                    a(href="/")
+                        <img src="https://img.icons8.com/bubbles/100/000000/behance.png">
+                p#pfoot Copyright &copy; 2020 Ashu, All Rights Reserved.
+        
+        script(src="../static/js/index.js")
+
+
+                   
+                   
+
+           
+
+
+

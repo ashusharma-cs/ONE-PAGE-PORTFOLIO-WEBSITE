@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1255px){
+    #navbar{
+        flex-direction: column;
+    }
+    #navbar .left{
+        justify-content: center;
+    }
+    #navbar .right ul li{
+        margin: 5px;
+        padding: 0px;
+        
+    }
+    .right ul li a{
+        letter-spacing: 0px;
+        font-size: 20px;
+    }
+
+    /* first-section */
+    #first{
+        height: 400px;
+    }
+    #first::before{
+        height: 506px;
+    }
+    #first .text{
+        height: 395px;
+        justify-content: center;
+    }
+    .text .text-holder{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* first-section-end */
+
+    /* secnd-section */
+    #second .s2{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .s2 .sbox{
+        width: 50%;
+        height: 50%;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .sbox img{
+        display: block;
+        margin: auto;
+    }
+    /* second-section-end */
+
+    /* third-section */
+    #third .tbox{
+        flex-direction: column;
+        margin: 12px;
+    }
+   
+    .tbox .t1{
+        margin-left: 0px;
+        height: 300px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .tbox .t2{
+        margin-right: 0px;
+        height: 350px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    #third .tbox-spcl{
+        flex-direction: column-reverse;
+        margin: 12px;
+    }
+    .tbox-spcl .mr{
+        margin-right: 0px;
+        height: 300px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .tbox-spcl .ml{
+        margin-left: 0px;
+        height: 350px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    /* thirs-section-end */
+
+    /* about-section */
+    .aboutbox{
+        flex-direction: column-reverse;
+    }
+    .aboutbox .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image .ibox{
+        top: 0px;
+        left: 0px;
+    }
+    .info p{
+        text-align: center;
+    }
+
+}
